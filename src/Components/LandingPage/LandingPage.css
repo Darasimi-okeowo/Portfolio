@@ -1,0 +1,36 @@
+.video {
+  position: fixed;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  filter: brightness(40%);
+}
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.texts {
+  color: white;
+  font-family: "courier";
+  font-size: 30px;
+  color: #e27d60;
+  text-transform: uppercase;
+}
+.loops {
+  font-size: 30px;
+  color: #c38d9e;
+  text-transform: uppercase;
+}
+.text {
+  font-size: 30px;
+  color: white;
+
+  color: #41b3a3;
+  text-transform: uppercase;
+}
