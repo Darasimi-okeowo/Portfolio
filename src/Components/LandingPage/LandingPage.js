@@ -2,6 +2,8 @@ import React from "react";
 import landingVideo from "./landing-video.mp4";
 import "./LandingPage.css";
 import Typical from "react-typical";
+import { NavLink } from "react-router-dom";
+
 
 const LandingPage = () => {
   return (
@@ -37,7 +39,9 @@ const LandingPage = () => {
             ]}
           />
         </p>
+        <NavLink to='/main'>
         <button className="button">Learn more about me</button>
+        </NavLink>
       </div>
     </div>
   );

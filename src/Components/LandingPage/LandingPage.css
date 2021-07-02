@@ -1,43 +1,48 @@
 .video {
-  position: fixed;
-  width: 100%;
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  object-fit: cover;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-  filter: brightness(40%);
+    position: fixed;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    filter: brightness(40%);
 }
-.logo{
+
+.logo {
     background-color: white;
 
 }
-.center {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-.texts {
-  color: white;
-  font-family: "courier";
-  font-size: 30px;
-  color: #e27d60;
-  text-transform: uppercase;
-}
-.loops {
-  font-size: 30px;
-  color: #c38d9e;
-  text-transform: uppercase;
-  border-bottom: 1px solid pink;
-}
-.text {
-  font-size: 30px;
-  color: white;
 
-  color: #41b3a3;
-  text-transform: uppercase;
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.texts {
+    color: white;
+    font-family: "courier";
+    font-size: 30px;
+    color: #e27d60;
+    text-transform: uppercase;
+}
+
+.loops {
+    font-size: 30px;
+    color: #c38d9e;
+    text-transform: uppercase;
+    border-bottom: 1px solid pink;
+}
+
+.text {
+    font-size: 30px;
+    color: white;
+
+    color: #41b3a3;
+    text-transform: uppercase;
 }
 
 
@@ -51,6 +56,7 @@
     border-radius: .4rem;
     transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
+
 .button:hover {
     box-shadow: 0 0 40px 40px #C38D9E inset;
 }
