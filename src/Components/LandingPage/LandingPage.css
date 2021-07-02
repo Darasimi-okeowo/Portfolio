@@ -24,13 +24,15 @@
 
 .texts {
     color: white;
-    font-family: "courier";
+    font-family: "Helvetica";
     font-size: 30px;
     color: #e27d60;
     text-transform: uppercase;
 }
 
 .loops {
+    font-family: "Helvetica";
+
     font-size: 30px;
     color: #c38d9e;
     text-transform: uppercase;
@@ -40,7 +42,7 @@
 .text {
     font-size: 30px;
     color: white;
-
+    font-family: "Helvetica";
     color: #41b3a3;
     text-transform: uppercase;
 }

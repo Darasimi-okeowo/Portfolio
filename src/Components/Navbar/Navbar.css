@@ -9,8 +9,7 @@
     width: 100%;
 }
 .Navbar img {
-    border: 2px solid red;
-    width: 70px;
+    width: 50px;
     margin: 0 2rem 0 0;
 }
 .Navbar li {
@@ -20,7 +19,7 @@
 .Navbar .contact {
     padding: 0;
 }
-/* .Navbar .contact button {
+.Navbar .contact button {
     background-color: #611f69;
     padding: 0.75rem 1rem;
     color: #fff;
@@ -33,7 +32,7 @@
     letter-spacing: 0.8px;
     padding: 10px 30px;
     font-size: 1rem;
-} */
+}
 .Navbar .flex-2 {
     position: relative;
 }
@@ -109,7 +108,7 @@
 }
 @media only screen and (max-width: 1200px) {
     .Navbar {
-        padding: 1rem 2%;
+        padding: .1rem 2%;
    }
     .Navbar .desktop-nav {
         display: none;

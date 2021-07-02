@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 
 const LandingPage = () => {
   return (
-    <div className="header">
+    <div className="headers">
       <video autoPlay loop muted className="video">
         <source src={landingVideo} type="video/mp4" />
       </video>
@@ -21,6 +21,7 @@ const LandingPage = () => {
           </mark>
         </h1>
         <p className="text">
+          I'm
           <Typical
             className="loops"
             loop={Infinity}

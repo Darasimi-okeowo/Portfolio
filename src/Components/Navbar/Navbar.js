@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import logo from "./Logo.png";
+import Logo from "./logo.png";
 function Nabar() {
   let [show, setShow] = useState(false);
 
@@ -13,60 +13,43 @@ function Nabar() {
     <div className="Navbar flex-2">
       <div className={`toggle-nav flex flex-column ${show && "showNav"}`}>
         <div className="flex-2 flex--icon">
-          <img className="logo" src={logo} alt="" />
+          <img className="logo" src={Logo} alt="" />
           <h2 onClick={handleSideNav}>{}</h2>
         </div>
         <div className="flex flex-column flex--icon-2">
           <ul className="main-nav">
-            <li>Why Slack?</li>
-            <li>Solution</li>
-            <li>Resources</li>
-            <li>Enterprise</li>
-            <li>Pricing</li>
+            <li>Why OKEMONEY?</li>
+            <li>Services</li>
+            <li>Testimonials</li>
+            <li>Projects worked on</li>
           </ul>
           <div className="button-grid">
-            <button>Signin</button>
-            <button>Download slack</button>
+            <button>About me</button>
           </div>
         </div>
       </div>
       <div className="flex-2 flex--2">
-        <img className="logo" src={logo} alt="" />
+        <img className="logo" src={Logo} alt="" />
         <ul className="flex-2 desktop-nav">
-          <li className="li--1">Why Slack?</li>
+          <li className="li--1">Why OKEMONEY?</li>
           <div className="why-hover">
             <ul>
               <li>Features</li>
-              <li>How it replaces email</li>
-              <li>Security</li>
-              <li>Customers</li>
+              
             </ul>
           </div>
-          <li className="li--2">Solutions</li>
+          <li className="li--2">Services</li>
           <ul className="solutions">
             <li>Remote Work</li>
             <li>Distance Learning</li>
-            <li>Engineering</li>
-            <li>Sales</li>
             <li>IT</li>
-            <li>Marketing</li>
-            <li>Customer Support</li>
-            <li>Human Resources</li>
-            <li>Project Management</li>
-            <li>Media</li>
           </ul>
-          <li>Resources</li>
-          <li>enterprises</li>
-          <li>Pricing</li>
-          <li></li>
+          <li>Testimonials</li>
+          <li>Projects worked on</li>
         </ul>
       </div>
       <div className="flex-2 contact desktop-nav">
-        <ul className="flex-2">
-          <li>Contact sales</li>
-          <li>Signin</li>
-        </ul>
-        {/* <button>Try for free</button> */}
+      <button>Try for free</button>
       </div>
       <div className="nav-burger" onClick={handleSideNav}>
         <span className="iconz">&nbsp;</span>
