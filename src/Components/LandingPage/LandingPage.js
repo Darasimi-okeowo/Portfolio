@@ -35,7 +35,7 @@ const LandingPage = () => {
               1000,
               " Manchester United fanboy",
               1000,
-              " Someone's boyfriend",
+              " problem solver",
               1000,
             ]}
           />
